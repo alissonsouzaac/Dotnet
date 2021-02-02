@@ -39,11 +39,11 @@ namespace ProAgil.WebAPI.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
             try
             {
-                var results =  _context.Eventos.ToList();
+                var results = await _context.Eventos.ToListAsync();
                 return ok(results);
 
             }
