@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "9KtK9RdJ0BByXF5jarzWjNKVo9Ka+KU11bJV0RwEjgJEfIEmYsSlJV45ORKVFfvjtNZvXnBlkSGE3v/Ji92mwQ==",
+  "dgSpecHash": "YvzuWeGcZxu0VRPJwqDjyEFHIz+d7Py4+RKlLbaRqGFlOIFXXzkX8KIYTV/T7B8BhEIO50Ubv3wT+/KZLSlM1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\T-Gamer\\Desktop\\dotcore\\ProAgil-WebAPI\\ProAgil.WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.2\\microsoft.data.sqlite.core.5.0.2.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.2\\microsoft.entityframeworkcore.5.0.2.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.2\\microsoft.entityframeworkcore.abstractions.5.0.2.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.2\\microsoft.entityframeworkcore.analyzers.5.0.2.nupkg.sha512",
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.2\\microsoft.entityframeworkcore.design.5.0.2.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.2\\microsoft.entityframeworkcore.relational.5.0.2.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.2\\microsoft.entityframeworkcore.sqlite.5.0.2.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\5.0.2\\microsoft.entityframeworkcore.sqlite.core.5.0.2.nupkg.sha512",

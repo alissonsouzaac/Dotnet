@@ -108,3 +108,5 @@ C:\Users\T-Gamer\Desktop\dotcore\ProAgil-WebAPI\obj\Debug\net5.0\ProAgil.WebAPI.
 C:\Users\T-Gamer\Desktop\dotcore\ProAgil-WebAPI\obj\Debug\net5.0\ref\ProAgil.WebAPI.dll
 C:\Users\T-Gamer\Desktop\dotcore\ProAgil-WebAPI\obj\Debug\net5.0\ProAgil.WebAPI.pdb
 C:\Users\T-Gamer\Desktop\dotcore\ProAgil-WebAPI\obj\Debug\net5.0\ProAgil.WebAPI.genruntimeconfig.cache
+C:\Users\T-Gamer\Desktop\dotcore\ProAgil-WebAPI\bin\Debug\net5.0\Humanizer.dll
+C:\Users\T-Gamer\Desktop\dotcore\ProAgil-WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

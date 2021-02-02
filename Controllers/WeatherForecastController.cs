@@ -11,6 +11,13 @@ namespace ProAgil.WebAPI.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+
+        public readonly DataContext _context;
+        public WeatherForecastController(DataContext context)
+        {
+            _context = context;
+        }
+
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -18,10 +25,31 @@ namespace ProAgil.WebAPI.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
+        public WeatherForecastController(DataContext context)
+        {
+            this.Context = context;
+
+        }
+        public DataContext Context { get; }
+
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
         }
+
+        [HttpGet]
+        public ActionResult<IEnumerable<Evento>> Get()
+        {
+            return _context.Eventos.ToList();
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult<Evento> Get(int id)
+        {
+            return _context.Eventos.FirstOrdefault(x => x.EventoId == id);
+        }
+
+        
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
