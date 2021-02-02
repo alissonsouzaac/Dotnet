@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.HTTP;
 
 namespace ProAgil.WebAPI.Controllers
 {
@@ -38,9 +39,19 @@ namespace ProAgil.WebAPI.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Evento>> Get()
+        public IActionResult Get()
         {
-            return _context.Eventos.ToList();
+            try
+            {
+                var results =  _context.Eventos.ToList();
+                return ok(results);
+
+            }
+            catch (System.Exception)
+            {
+                
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Fail");
+            }
         }
 
         [HttpGet("{id}")]
